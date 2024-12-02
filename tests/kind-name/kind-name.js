@@ -4,11 +4,13 @@ const rule = require('../../lib/rules/kind-name'),
 	RuleTester = require('eslint').RuleTester;
 
 RuleTester.setDefaultConfig({
-	parserOptions: {
+	languageOptions: {
 		ecmaVersion: 6,
 		sourceType: "module",
-		ecmaFeatures: {
-			jsx: true
+		parserOptions: {
+			ecmaFeatures: {
+				jsx: true
+			}
 		}
 	}
 });
