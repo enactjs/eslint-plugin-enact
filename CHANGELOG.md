@@ -2,6 +2,10 @@
 
 The following is a curated list of changes in the Enact eslint plugin:
 
+## [unreleased]
+
+* Updated Enact ESLint config to v9 including eslint related modules.
+
 ## [2.0.0-alpha.1] - (December 6, 2024)
 
 * Fixed a deprecation warning regarding nodejs.

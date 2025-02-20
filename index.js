@@ -25,9 +25,11 @@ module.exports = {
   rules: exportedRules,
   configs: {
     recommended: {
-      parserOptions: {
-        ecmaFeatures: {
-          jsx: true
+      languageOptions: {
+        parserOptions: {
+          ecmaFeatures: {
+            jsx: true
+          }
         }
       },
       rules: {
@@ -35,12 +37,14 @@ module.exports = {
         'enact/kind-name': 2,
         'enact/display-name': 2,
         'enact/no-module-exports-import': 1
-      },
+      }
     },
     all: {
-      parserOptions: {
-        ecmaFeatures: {
-          jsx: true
+      languageOptions: {
+        parserOptions: {
+          ecmaFeatures: {
+            jsx: true
+          }
         }
       },
       rules: allRules
