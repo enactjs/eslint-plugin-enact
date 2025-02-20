@@ -41,7 +41,7 @@ See [display-name at eslint-plugin-react](https://github.com/yannickcr/eslint-pl
 
 For this rule to work we need to detect React components, this could be very hard since components could be declared in a lot of ways.
 
-For now we should detect components created with:
+For now, we should detect components created with:
 
 * `createReactClass()`
 * an ES6 class that inherit from `React.Component` or `Component`

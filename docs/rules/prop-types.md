@@ -59,7 +59,7 @@ const Hello = kind({
   name: 'Example',
   propTypes: {
     firstname: React.PropTypes.string.isRequired,
-    middlename: React.PropTypes.string.isRequired
+    middlename: React.PropTypes.string.isRequired,
     lastname: React.PropTypes.string.isRequired
   },
   render: function ({firstname, ...rest}) {

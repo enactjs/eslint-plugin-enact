@@ -66,7 +66,7 @@ With ESLint 2.x.x+:
 }
 ```
 
-Finally, enable all of the rules that you would like to use:
+Finally, enable all the rules that you would like to use:
 
 ```json
   "rules": {
@@ -79,7 +79,7 @@ Finally, enable all of the rules that you would like to use:
 
 # List of supported rules
 
-* [enact/kind-name](docs/rules/kind-name.md): Prevent missing `name` in a Enact component definition
+* [enact/kind-name](docs/rules/kind-name.md): Prevent missing `name` in an Enact component definition
 * [enact/display-name](docs/rules/display-name.md): Prevent missing `displayName` in a React component definitions without false-flagging Enact kinds
 * [enact/prop-types](docs/rules/prop-types.md): Prevent missing props validation in a React component definition
 * [enact/no-module-exports-import](docs/rules/no-module-exports-import.md): Disallow module.exports with import statements (see [webpack issue #4039](https://github.com/webpack/webpack/issues/4039))
