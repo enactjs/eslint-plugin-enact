@@ -2,7 +2,7 @@
 
 The following is a curated list of changes in the Enact eslint plugin:
 
-## [unreleased]
+## [2.0.0-alpha.2] - (February 20, 2025)
 
 * Updated Enact ESLint config to v9 including eslint related modules.
 
