@@ -72,7 +72,6 @@ Finally, enable all the rules that you would like to use:
   "rules": {
     "enact/kind-name": 1,
     "enact/display-name": 1,
-    "enact/prop-types": 1,
     "enact/no-module-exports-import": 2
   }
 ```
@@ -81,10 +80,9 @@ Finally, enable all the rules that you would like to use:
 
 * [enact/kind-name](docs/rules/kind-name.md): Prevent missing `name` in an Enact component definition
 * [enact/display-name](docs/rules/display-name.md): Prevent missing `displayName` in a React component definitions without false-flagging Enact kinds
-* [enact/prop-types](docs/rules/prop-types.md): Prevent missing props validation in a React component definition
 * [enact/no-module-exports-import](docs/rules/no-module-exports-import.md): Disallow module.exports with import statements (see [webpack issue #4039](https://github.com/webpack/webpack/issues/4039))
 
-> Note: `enact/display-name` and `enact/prop-types` supersede `react/display-name` and `react/prop-types`, respectively. The latter two should be disabled when used with Enact.
+> Note: `enact/display-name` supersede `react/display-name`, respectively. The latter two should be disabled when used with Enact.
 
 ## Other useful plugins
 
@@ -99,7 +97,7 @@ ESLint-plugin-Enact is based on work from ESLint-plugin-React and is licensed un
 Unless otherwise specified, all content, including all source code files and
 documentation files in this repository are:
 
-Copyright (c) 2016-2024 LG Electronics
+Copyright (c) 2016-2025 LG Electronics
 
 Unless otherwise specified or set forth in the NOTICE file, all content,
 including all source code files and documentation files in this repository are:
