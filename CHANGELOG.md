@@ -2,6 +2,10 @@
 
 The following is a curated list of changes in the Enact eslint plugin:
 
+## [2.0.0] - (June 10, 2025)
+
+* No significant changes.
+
 ## [2.0.0-beta.1] - (April 17, 2025)
 
 * Removed deprecated rule `enact/prop-types`.
