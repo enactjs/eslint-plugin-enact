@@ -2,6 +2,10 @@
 
 The following is a curated list of changes in the Enact eslint plugin:
 
+## [unreleased]
+
+* Updated `mocha` version to `^11.6.0`.
+
 ## [2.0.0] - (June 10, 2025)
 
 * No significant changes.
