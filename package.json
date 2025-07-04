@@ -40,6 +40,6 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "eslint": "^9.19.0",
-    "mocha": "^10.8.2"
+    "mocha": "^11.6.0"
   }
 }
