@@ -25,10 +25,10 @@
     "minimatch": "^10.1.1"
   },
   "peerDependencies": {
-    "eslint": ">=9.0.0"
+    "eslint": ">=10.0.0"
   },
   "engines": {
-    "node": "^20.0.0 || >=22.0.0"
+    "node": ">=20.19.0 || >=22.13.0 || >=24.0.0"
   },
   "keywords": [
     "eslint",
@@ -39,7 +39,7 @@
   ],
   "license": "Apache-2.0",
   "devDependencies": {
-    "eslint": "^9.39.1",
+    "eslint": "^10.0.3",
     "mocha": "^11.7.5"
   }
 }
