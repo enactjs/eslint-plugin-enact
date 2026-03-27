@@ -15,3 +15,7 @@ build
 node_modules
 npm-debug.log
 sftp-config.json
+
+# Editor
+.idea
+.vscode
