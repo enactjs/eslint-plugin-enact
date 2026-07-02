@@ -19,3 +19,5 @@ sftp-config.json
 # Editor
 .idea
 .vscode
+
+package-lock.json
