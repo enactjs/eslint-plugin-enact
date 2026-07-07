@@ -56,8 +56,7 @@ ruleTester.run('display-name', rule, {
 			ignoreTranspilerName: true
 		  }],
 			errors: [{
-				message: 'Component definition is missing display name',
-				type: 'ClassDeclaration'
+				message: 'Component definition is missing display name'
 			}]
 		}
 	]
