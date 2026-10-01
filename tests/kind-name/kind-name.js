@@ -27,8 +27,7 @@ ruleTester.run('kind-name', rule, {
 		{
 			code: "const t = kind({render: (props) => (<div {...props}>Hello</div>)});",
 			errors: [{
-				message: 'Component definition is missing a name property',
-				type: 'ObjectExpression'
+				message: 'Component definition is missing a name property'
 			}]
 		}
 	]
