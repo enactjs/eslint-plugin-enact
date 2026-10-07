@@ -14,7 +14,7 @@
         "minimatch": "^10.2.5"
       },
       "devDependencies": {
-        "eslint": "^9.39.5",
+        "eslint": "^9.39.4",
         "mocha": "^11.7.5"
       },
       "engines": {
