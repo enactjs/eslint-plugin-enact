@@ -3,7 +3,11 @@
 var rules = {
   'kind-name': require('./lib/rules/kind-name'),
   'display-name': require('./lib/rules/display-name'),
-  'no-module-exports-import': require('./lib/rules/no-module-exports-import')
+  'no-module-exports-import': require('./lib/rules/no-module-exports-import'),
+  'jsx-boolean-value': require('./lib/rules/jsx-boolean-value'),
+  'jsx-no-bind': require('./lib/rules/jsx-no-bind'),
+  'jsx-no-duplicate-props': require('./lib/rules/jsx-no-duplicate-props'),
+  'jsx-props-no-multi-spaces': require('./lib/rules/jsx-props-no-multi-spaces')
 };
 
 var ruleNames = Object.keys(rules);

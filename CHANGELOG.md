@@ -5,6 +5,7 @@ The following is a curated list of changes in the Enact eslint plugin:
 ## [unreleased]
 
 * Updated Enact ESLint config to v10 including eslint related modules.
+* Added `enact/jsx-boolean-value`, `enact/jsx-no-bind`, `enact/jsx-no-duplicate-props` and `enact/jsx-props-no-multi-spaces` rules, replacing the `eslint-plugin-react` rules of the same name, which do not support ESLint 10.
 
 ## [2.0.5] - (August 21, 2026)
 
