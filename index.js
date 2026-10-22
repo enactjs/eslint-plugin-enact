@@ -4,6 +4,9 @@ var rules = {
   'kind-name': require('./lib/rules/kind-name'),
   'display-name': require('./lib/rules/display-name'),
   'no-module-exports-import': require('./lib/rules/no-module-exports-import'),
+  // TODO: remove these migrations of eslint-plugin-react rules (and their docs and tests) once eslint-plugin-react
+  // supports ESLint 10 (https://github.com/jsx-eslint/eslint-plugin-react/pull/4022) and eslint-config-enact
+  // switches back to it.
   'jsx-boolean-value': require('./lib/rules/jsx-boolean-value'),
   'jsx-no-bind': require('./lib/rules/jsx-no-bind'),
   'jsx-no-duplicate-props': require('./lib/rules/jsx-no-duplicate-props'),
