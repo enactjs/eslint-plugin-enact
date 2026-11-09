@@ -81,12 +81,16 @@ Finally, enable all the rules that you would like to use:
 * [enact/kind-name](docs/rules/kind-name.md): Prevent missing `name` in an Enact component definition
 * [enact/display-name](docs/rules/display-name.md): Prevent missing `displayName` in a React component definitions without false-flagging Enact kinds
 * [enact/no-module-exports-import](docs/rules/no-module-exports-import.md): Disallow module.exports with import statements (see [webpack issue #4039](https://github.com/webpack/webpack/issues/4039))
+* [enact/jsx-boolean-value](docs/rules/jsx-boolean-value.md): Enforce shorthand for `true` JSX attribute values
+* [enact/jsx-no-bind](docs/rules/jsx-no-bind.md): Disallow `.bind()`, arrow functions and functions in JSX props
+* [enact/jsx-no-duplicate-props](docs/rules/jsx-no-duplicate-props.md): Disallow duplicate properties in JSX elements
+* [enact/jsx-props-no-multi-spaces](docs/rules/jsx-props-no-multi-spaces.md): Disallow multiple spaces between inline JSX props
 
 > Note: `enact/display-name` supersede `react/display-name`, respectively. The latter two should be disabled when used with Enact.
 
 ## Other useful plugins
 
-- React: [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
+- React: [ESLint React](https://eslint-react.xyz) (`@eslint-react/eslint-plugin`)
 
 # License
 
